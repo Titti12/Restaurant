@@ -1,0 +1,229 @@
+/* font-family: 'Cedarville Cursive', */
+/* cursive; */
+/* font-family: 'Titillium Web', */
+/* sans-serif; */
+/* green:  */
+
+
+:root {
+    --prim: #ff2c2c;
+    --sec:  #f6e8b1;
+    --tert: #d1001f;
+    --primfont: 'Cedarville Cursive', cursive;
+    --secfont: 'Titillium Web', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family:'Titillium Web' sans-serif; 
+}
+.main-dropdown li {
+    text-transform: uppercase;
+}
+@media (min-width: 992px){
+    .bottom-text {
+        width: 45%;
+    }
+}
+.bi{
+    display: inline-block;
+    stroke-width: 0;
+    stroke:var(--sec) ;
+    fill: var(--sec) ;
+    padding-left: 8px;
+}
+.icon{
+    display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: var(--sec);
+        fill: black;
+}
+.icon-heart, .icon-cutlery, .icon-coffee {
+    stroke: #999e03;
+    fill:#999e03;
+    font-size: calc(26px + (36-26) * ((100vw - 300px)/ (1600 - 300)));
+    padding-right: 15px;
+}
+.logo {
+    font-family: var(--primfont)
+}
+.about-section {
+    background:#fffdd1;
+    padding: 20px ;
+}
+.inner {
+    background: white;
+    padding: 20px;
+}
+.titillium {
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
+.my-btn {
+    border-radius: 8px;
+    color: var(--sec);
+}
+.my-btn:hover {
+    color: black;
+    background-color: var(--sec);
+
+}
+.top-header {
+    background-color:var(--prim);
+    border-bottom: solid 20px var(--tert);
+}
+ .mid-header {
+    background-color: var(--tert);
+}
+.bottom-header {
+    background-color: var(--sec);
+    padding: 20px, 0;
+}
+.hero-section {
+    background-position: center;
+    background-image:url('../media/Salad\ 2.jpg') ;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.75;
+}
+.promo-header {
+    font-family: var(--secfont);
+    font-size: 58px;
+    text-shadow: 2px 2px 2px var(--prim);
+}
+.carousel-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 350px;
+    height: 125px;
+    background-color: #f6e8b1;
+    opacity: 0.50;
+    z-index: 2;
+}
+
+.carousel-headline{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.carousel-text{
+    font-size: 10px;
+    font-family: var(--secfont);
+    font-style: italic;
+    color:purple;
+}
+
+.info-section {
+    background-color: #fffdd1; 
+    padding: 30px 0;
+    width: 100%;
+}
+.info-figure {
+    background-color: #fff;
+    box-shadow: 0px, 4px, 4px #ddd;
+}
+.figure-img {
+    width: 250px;
+    height: 150px;
+}
+@media (max-width: 767px) {
+    .info-figure {
+        width: 100%;
+    }
+
+    .info-img {
+        width: 100%;
+    }
+}
+
+.figure-text-div {
+    padding-left: 20px;
+}
+
+.figure-h2 {
+    margin: 0;
+    padding: 0;
+    color: #ec3400;
+    font-family: var(--secfont);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.figure-text {
+    color: var(--textColor);
+    font-family: var(--secfont);
+    font-size: 14px;
+}
+.reservation-section {
+    background-color: #fffef2;
+    padding: 20px;
+}
+.reservation-header {
+    padding: 20px;
+    font-size: 30px;
+    font-family: var(--secfont);
+    font-style: italic;
+    color: purple;
+}
+.sub-headerh3 {
+    color: #999e03;
+    font-family: var(--secfont);
+}
+.content-header {
+    color: #999e03;
+    font-size: 30px;
+}
+.content-text {
+    color: var(--textColor);
+    font-family: var(--secfont);
+    font-size: 14px;
+    font-weight: 200;
+}
+.more-link {
+    color: #d1001f;
+    font-family: var(--secfont);
+    font-size: 10px;
+
+}
+.offer {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+@media (min-width: 992px) {
+    .content-box {
+        width: 90%;
+    }
+
+    .icon-box {
+        width: 10%;
+    }
+}
+.logo-section {
+    background-color: #777777;
+    border-bottom: #555555 ;
+    padding: 20px;
+}
+.top-footer {
+    background-color: #555555;
+    border-bottom: #333333;
+    padding: 20px;
+}
+.bottom-footer {
+    padding: 20px;
+    background-color: #333333;
+}
+
